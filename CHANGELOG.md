@@ -2,6 +2,48 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.0](https://github.com/lholmquist/opossum/compare/v5.0.1...v5.1.0) (2025-06-01)
+
+
+### Features
+
+* pass circuit params to error filter ([#492](https://github.com/lholmquist/opossum/issues/492)) ([29175d7](https://github.com/lholmquist/opossum/commit/29175d75d03adf4ebfd4d7603dc454349b056b94))
+
+
+### Bug Fixes
+
+* Adding docs about fallback parameters ([#460](https://github.com/lholmquist/opossum/issues/460)) ([e8989b6](https://github.com/lholmquist/opossum/commit/e8989b688c32d12519783fcd900ea9992e6ec2b6)), closes [#459](https://github.com/lholmquist/opossum/issues/459)
+* catch exceptions in fallback functions ([#510](https://github.com/lholmquist/opossum/issues/510)) ([34f75a2](https://github.com/lholmquist/opossum/commit/34f75a2994b3efd95fbd86fab5f6cf73f3fa39d8))
+* lint issues in test ([#499](https://github.com/lholmquist/opossum/issues/499)) ([35ddd8c](https://github.com/lholmquist/opossum/commit/35ddd8c9326d0d882d0ab3a089ac87a3279ffa6c))
+* package.json & package-lock.json to reduce vulnerabilities ([#493](https://github.com/lholmquist/opossum/issues/493)) ([03fed29](https://github.com/lholmquist/opossum/commit/03fed29b3ac5c75662868800feda86b787ed7d9b))
+* type-error on empty action ([#528](https://github.com/lholmquist/opossum/issues/528)) ([7b51dba](https://github.com/lholmquist/opossum/commit/7b51dba305ee4dfdbec16a034549a7538910c41b)), closes [#524](https://github.com/lholmquist/opossum/issues/524)
+* upgrade @babel/core from 7.11.0 to 7.11.1 ([#458](https://github.com/lholmquist/opossum/issues/458)) ([bd59b48](https://github.com/lholmquist/opossum/commit/bd59b4860ce412608c520c757af1bf2b9398577b))
+* upgrade @babel/core from 7.11.1 to 7.11.4 ([#463](https://github.com/lholmquist/opossum/issues/463)) ([2d4318d](https://github.com/lholmquist/opossum/commit/2d4318dd31e78af98e61ef355b451a19c0947bad))
+* upgrade @babel/core from 7.11.5 to 7.11.6 ([#467](https://github.com/lholmquist/opossum/issues/467)) ([c0edb40](https://github.com/lholmquist/opossum/commit/c0edb40c75dd85eb829f459c86f42de2bc58b394))
+* upgrade @babel/core from 7.12.1 to 7.12.3 ([#490](https://github.com/lholmquist/opossum/issues/490)) ([6a73957](https://github.com/lholmquist/opossum/commit/6a73957a52a290a30039b846bb5785f8503b15cd))
+* upgrade @babel/core from 7.12.7 to 7.12.9 ([#517](https://github.com/lholmquist/opossum/issues/517)) ([2a28a73](https://github.com/lholmquist/opossum/commit/2a28a733087da5544c361406089b825633c9d60e))
+* upgrade @babel/preset-env from 7.12.10 to 7.12.11 ([#527](https://github.com/lholmquist/opossum/issues/527)) ([bce3bfc](https://github.com/lholmquist/opossum/commit/bce3bfc78938ff37ad7bc5226fb2841a01ef5fc4))
+* upgrade babel-loader from 8.1.0 to 8.2.1 ([#505](https://github.com/lholmquist/opossum/issues/505)) ([885403b](https://github.com/lholmquist/opossum/commit/885403b58e4084d2abe71f1a65e666413abd4f32))
+* upgrade babel-loader from 8.2.1 to 8.2.2 ([#519](https://github.com/lholmquist/opossum/issues/519)) ([654af20](https://github.com/lholmquist/opossum/commit/654af20a492cc878ad93113f1890d9a735cbc9b4))
+* upgrade documentation from 13.0.2 to 13.1.0 ([#491](https://github.com/lholmquist/opossum/issues/491)) ([cc94100](https://github.com/lholmquist/opossum/commit/cc94100c665096c830e04653016662c8c19dc5ce))
+* upgrade multiple dependencies with Snyk ([#466](https://github.com/lholmquist/opossum/issues/466)) ([4dc36ef](https://github.com/lholmquist/opossum/commit/4dc36ef7936b1cfa0a142dcf6683ee401eb6cefb))
+* upgrade multiple dependencies with Snyk ([#485](https://github.com/lholmquist/opossum/issues/485)) ([efe299e](https://github.com/lholmquist/opossum/commit/efe299e1d1cc0311a5ea406dad659ccd5d105754))
+* upgrade multiple dependencies with Snyk ([#487](https://github.com/lholmquist/opossum/issues/487)) ([3afaa17](https://github.com/lholmquist/opossum/commit/3afaa1757a1defc7d1b6050aedb301e188fe35c6))
+* upgrade multiple dependencies with Snyk ([#513](https://github.com/lholmquist/opossum/issues/513)) ([7e3ef5c](https://github.com/lholmquist/opossum/commit/7e3ef5c8218e45aa48b1eff159ef97aca2cc9dbe))
+* upgrade multiple dependencies with Snyk ([#523](https://github.com/lholmquist/opossum/issues/523)) ([480d2ff](https://github.com/lholmquist/opossum/commit/480d2ff490fa53dadae61124638a65c69788f4aa))
+* upgrade opener from 1.5.1 to 1.5.2 ([#465](https://github.com/lholmquist/opossum/issues/465)) ([96df963](https://github.com/lholmquist/opossum/commit/96df963ec70b1affa96c2045cfe56ddd8b6774e7))
+* upgrade webpack from 4.44.1 to 4.44.2 ([#471](https://github.com/lholmquist/opossum/issues/471)) ([a9d8b86](https://github.com/lholmquist/opossum/commit/a9d8b8647544db60f42d32d515f1999cc4324ae0))
+* upgrade webpack from 5.1.1 to 5.3.2 ([#500](https://github.com/lholmquist/opossum/issues/500)) ([1562a41](https://github.com/lholmquist/opossum/commit/1562a4148bbfbc8cc9d98e6b2241bbf942941c4e))
+* upgrade webpack from 5.10.1 to 5.10.3 ([#526](https://github.com/lholmquist/opossum/issues/526)) ([e72394c](https://github.com/lholmquist/opossum/commit/e72394c9b28bd4a2db6a7307ea46bb45f677facd))
+* upgrade webpack from 5.3.2 to 5.4.0 ([#507](https://github.com/lholmquist/opossum/issues/507)) ([05a8876](https://github.com/lholmquist/opossum/commit/05a88768ca4aae185787fed5eafa3f3b538bf326))
+* upgrade webpack from 5.4.0 to 5.6.0 ([#512](https://github.com/lholmquist/opossum/issues/512)) ([dc8f308](https://github.com/lholmquist/opossum/commit/dc8f308b1b6bd800657de4908a75a968e13f52e9))
+* upgrade webpack from 5.6.0 to 5.8.0 ([#518](https://github.com/lholmquist/opossum/issues/518)) ([f4438c8](https://github.com/lholmquist/opossum/commit/f4438c84019c79d7d491f4563b61c707ef0f29fc))
+* upgrade webpack from 5.8.0 to 5.9.0 ([#520](https://github.com/lholmquist/opossum/issues/520)) ([119ac47](https://github.com/lholmquist/opossum/commit/119ac47c34bcb23ee9080b865a8732d87660838e))
+* upgrade webpack from 5.9.0 to 5.10.1 ([#525](https://github.com/lholmquist/opossum/issues/525)) ([d552015](https://github.com/lholmquist/opossum/commit/d552015888b7635578b18b87d96a7e9daf611da9))
+* upgrade webpack-cli from 4.0.0 to 4.1.0 ([#501](https://github.com/lholmquist/opossum/issues/501)) ([63d20c2](https://github.com/lholmquist/opossum/commit/63d20c27475319a5c8de434b6eb66b5e866376b7))
+* upgrade webpack-cli from 4.1.0 to 4.2.0 ([#506](https://github.com/lholmquist/opossum/issues/506)) ([ba91b77](https://github.com/lholmquist/opossum/commit/ba91b77947f4657d60172d3991b851000a54c9c3))
+* using default parameter to avoid runtime error ([#522](https://github.com/lholmquist/opossum/issues/522)) ([6a6f08b](https://github.com/lholmquist/opossum/commit/6a6f08b258ffb5db15df04bb189a2f31e6279e8a))
+
 ### [5.1.2](https://www.github.com/nodeshift/opossum/compare/v5.1.1...v5.1.2) (2021-01-07)
 
 
